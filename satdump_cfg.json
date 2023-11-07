@@ -1214,7 +1214,7 @@
                         "apply_lut": true
                     },
                     "Rainfall (Transparent)": {
-                        "equation": "((1-(cch5-cch4))-0.95)^0.25, 0, 0, ((1-(cch5-cch4))-0.95)^0.25",
+                        "equation": "((1-(cch5-cch4))-0.95)^0.25, 0, 0, ((1-(cch5-cch4))-0.95)^0.25 > 0.01 ? 1 : 0",
                         "apply_lut": true,
                         "autogen": false
                     }
